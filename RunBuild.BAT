@@ -1,2 +1,2 @@
-bin\nant\nant.exe -buildfile:cruise.build %*
-pause
+call bundle install
+call bundle exec rake
